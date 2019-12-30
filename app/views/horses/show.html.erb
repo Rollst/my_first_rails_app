@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @horse.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @horse.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @horse.year %>
+</p>
+
+<%= link_to 'Edit', edit_horse_path(@horse) %> |
+<%= link_to 'Back', horses_path %>
